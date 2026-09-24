@@ -1,0 +1,173 @@
+{
+    "student": {
+        "name": "triztan",
+        "course": "BSCS1-2"
+    },
+    "subjects": [
+        {
+            "id": 1,
+            "name": "purcom",
+            "details": {}
+        },
+        {
+            "id": 2,
+            "name": "uts",
+            "details": {}
+        },
+        {
+            "id": 3,
+            "name": "ethics",
+            "details": {}
+        },
+        {
+            "id": 4,
+            "name": "366",
+            "details": {}
+        },
+        {
+            "id": 5,
+            "name": "260",
+            "details": {}
+        },
+        {
+            "id": 6,
+            "name": "pe",
+            "details": {}
+        },
+        {
+            "id": 7,
+            "name": "nstp",
+            "details": {}
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "subject_id": 4,
+            "title": "task3",
+            "due_date": "01/10/2027",
+            "due_time": "11:00 AM",
+            "status": "Pending"
+        },
+        {
+            "id": 2,
+            "subject_id": 5,
+            "title": "",
+            "due_date": "09/23/2026",
+            "due_time": "11:59 pm",
+            "status": "Completed"
+        },
+        {
+            "id": 4,
+            "subject_id": 1,
+            "title": "knvnakjdkfvba",
+            "due_date": "10/02/2026",
+            "due_time": "10:00 am",
+            "status": "Processing"
+        },
+        {
+            "id": 5,
+            "subject_id": 7,
+            "title": "module 6-8",
+            "due_date": "09/23/2026",
+            "due_time": "11:59 pm",
+            "status": "Completed"
+        },
+        {
+            "id": 6,
+            "subject_id": 1,
+            "title": "bsfg",
+            "due_date": "09/30/2026",
+            "due_time": "10:30 PM",
+            "status": "Pending"
+        },
+        {
+            "id": 7,
+            "subject_id": 1,
+            "title": "adff",
+            "due_date": "09/30/2026",
+            "due_time": "10:30 PM",
+            "status": "Pending"
+        },
+        {
+            "id": 9,
+            "subject_id": 3,
+            "title": "kvqherh",
+            "due_date": "02/12/2026",
+            "due_time": "5:30 am",
+            "status": "Completed"
+        },
+        {
+            "id": 10,
+            "subject_id": 1,
+            "title": "212rrevsdgf",
+            "due_date": "10/30/2026",
+            "due_time": "5:00 pm",
+            "status": "Completed"
+        },
+        {
+            "id": 11,
+            "subject_id": 2,
+            "title": "adfab",
+            "due_date": "02/12/2026",
+            "due_time": "5:30 am",
+            "status": "Completed"
+        },
+        {
+            "id": 12,
+            "subject_id": 1,
+            "title": "212rrevsdgf",
+            "due_date": "10/30/2026",
+            "due_time": "5:00 pm",
+            "status": "Completed"
+        },
+        {
+            "id": 13,
+            "subject_id": 2,
+            "title": "adfab",
+            "due_date": "02/12/2026",
+            "due_time": "5:30 am",
+            "status": "Completed"
+        },
+        {
+            "id": 14,
+            "subject_id": 6,
+            "title": "kjvhbkdf",
+            "due_date": "5/06/2026",
+            "due_time": "5:00 pm",
+            "status": "Pending"
+        },
+        {
+            "id": 16,
+            "subject_id": 2,
+            "title": "kadbfjvbakdfja",
+            "due_date": "10/5/2026",
+            "due_time": "10:30 PM",
+            "status": "Pending"
+        },
+        {
+            "id": 17,
+            "subject_id": 1,
+            "title": "TASK 5",
+            "due_date": "9/10/2027",
+            "due_time": "9:30 AM",
+            "status": "Pending"
+        },
+        {
+            "id": 18,
+            "subject_id": 3,
+            "title": "badbfadf",
+            "due_date": "09/30/2026",
+            "due_time": "10:30 PM",
+            "status": "Processing"
+        },
+        {
+            "id": 19,
+            "subject_id": 1,
+            "title": "adfbadf",
+            "due_date": "01/10/2026",
+            "due_time": "10:30 pm",
+            "status": "Pending"
+        }
+    ]
+}
