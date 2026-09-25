@@ -523,7 +523,6 @@ def view_all_upcomingDeadlines(data):
     print(double)
     print(f"\nNot Yet Implemented/Created")
     print(f"\nWE ARE WORKING FOR THIS FUNCTION TO BE CREATED")
-    print(f"\nTHIS WILL BE IMPLEMENTED AFTER THE P2 EXAM")
     print(double)
 
 # ============================================================
