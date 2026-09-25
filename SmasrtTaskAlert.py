@@ -405,9 +405,9 @@ def add_task(data):
         print(f"[{index}] {status}") # THEN PRINT THE INDEX AND STATUS
     while True:
         try:
-            status_choice = int(input("Enter status number: ")) # ASK FOR INDEX OF STATUS 
+            status_choice = int(input("Enter status number: ")) - 1 # ASK FOR INDEX OF STATUS 
             range_val = len(STATUS_OPTIONS) # CONVERTING THE LIST TO INT 
-            if status_choice not in range(1, len(STATUS_OPTIONS) + 1): # IF CHOICE IS WALA SA RANGE NG STATUS WHICH IS 1 - 3
+            if status_choice not in range(len(STATUS_OPTIONS)): # IF CHOICE IS WALA SA RANGE NG STATUS WHICH IS 1 - 3
                 print(f"Enter an Option between [1 - {range_val}].") # IF CONDITION IS TRUE PRINT THIS
 
         except ValueError:
