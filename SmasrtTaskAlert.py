@@ -250,7 +250,6 @@ def show_dashboard(data):
         # print(f"    Processing: {processing}")
         # print(f"    Completed:  {completed}")
 
-
 # ============================================================
 # MAIN MENU
 # ============================================================
@@ -260,6 +259,7 @@ def main_menu(data):
     menu = [
         "Add New Task",
         "View All Tasks",
+        "View all Upcoming Deadlines",
         "Search Assignment",
         "Update Task",
         "Delete Task",
@@ -290,12 +290,14 @@ def main_menu(data):
         elif choice == 2:
             view_all_tasks(data)
         elif choice == 3:
-            search_assignment(data)
+            view_all_upcomingDeadlines(data)
         elif choice == 4:
-            update_task(data)
+            search_assignment(data)
         elif choice == 5:
-            delete_task(data)
+            update_task(data)
         elif choice == 6:
+            delete_task(data)
+        elif choice == 7:
             save_data(data)
             print(sub)
             print("\nThank you for using Smart Task Alert!")
@@ -513,6 +515,14 @@ def view_all_tasks(data):
             # print(f"Due Date: {task['due_date']}")
             # print(f"Due Time: {task['due_time']}")
             # print(f"Status: {task['status']}")"""
+
+# ============================================================
+# VIEW ALL TASKS
+# ============================================================
+def view_all_upcomingDeadlines(data):
+    print(double)
+    print(f"\nNot Yet Implemented/Created")
+    print(double)
 
 # ============================================================
 # SEARCH ASSIGNMENT
